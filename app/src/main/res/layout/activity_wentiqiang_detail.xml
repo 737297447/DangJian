@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_commom_layout"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题来源:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题标题:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="提  问  者:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题类别:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="责任支部:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="可见范围:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题描述:"
+                        android:textSize="12sp"
+                        android:textColor="@color/c_666666"/>
+
+                    <TextView
+                        android:id="@+id/tv_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群众以"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/c_333333"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/icon_shouye_bianji"/>
+
+
+                    <EditText
+                        android:id="@+id/et_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:hint="回复..."
+                        android:textColor="@color/c_333333"
+                        android:textColorHint="@color/c_999999"
+                        android:textSize="14sp"
+                        android:background="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/tv_sumbit"
+                        android:layout_width="60dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/select_login"
+                        android:text="发表"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

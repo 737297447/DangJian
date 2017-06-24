@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/title_commom_layout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@mipmap/icon_emblem_red"/>
+
+            <TextView
+                android:id="@+id/tv_bumen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c_333333"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:text="延安党委1党总支第一党支部-支撑"/>
+
+
+        </LinearLayout>
+
+        <com.lingdian.dangjian.view.yrecycleview.YRecycleview
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

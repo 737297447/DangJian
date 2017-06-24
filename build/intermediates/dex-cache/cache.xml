@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\AsProject\DangJian\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8340c102d6ce8649143d9895e5c24be71181f08e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsProject\DangJian\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\2\pinyin4j-2.5.0_57d650fe6066d9cb600da1c0184b17f34429d996\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\4a7b292034a1785ef4c24158c6a29d87ab610422\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c543ac00b689343161fda6c18c594553fdc09fc7">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25814d2c0b103078d5752f14d79788903b749bb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsProject\DangJian\app\libs\commons-codec-1.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_6372fd4a20ec0b7ad25e29f24cb0c37e11028066\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsProject\DangJian\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_57f8029de5406a4ee5c95c8296e2396d850d6b48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\28e953b05f87462ee79fdd972660ee5d2ed41698\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="325208573c3f5b955d97e0e7f0e7b567657a75a3">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a13703485b537430a0629cd335f935b955df3ea2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsProject\DangJian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f4349360947480e5db35fe0bf76a4074e2e6258a">
+        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a12acaebbaea9c358edb3f58ffad36c2bb318b27\classes.dex" />
+    </item>
+
+</items>
