@@ -1,12 +1,12 @@
 package com.lingdian.dangjian.ui.activity;
 
+import android.os.Handler;
+
 import com.gyf.barlibrary.ImmersionBar;
 import com.lingdian.dangjian.R;
 import com.lingdian.dangjian.base.BaseActivity;
 import com.lingdian.dangjian.component.AppComponent;
 import com.lingdian.dangjian.util.SPUtils;
-
-import android.os.Handler;
 
 /**
  * Created by longhy on 2017/6/22.
