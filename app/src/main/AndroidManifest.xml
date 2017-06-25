@@ -47,6 +47,11 @@
         <activity android:name=".ui.activity.SanhuiActivity"
             android:screenOrientation="portrait"/>
 
+        <activity android:name=".ui.activity.ZuzhichaxunActivity"
+            android:screenOrientation="portrait"/>
+
+
+
 
     </application>
 

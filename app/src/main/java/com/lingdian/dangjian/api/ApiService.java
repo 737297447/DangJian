@@ -10,6 +10,7 @@ import com.lingdian.dangjian.ui.bean.Sanhui;
 import com.lingdian.dangjian.ui.bean.User;
 import com.lingdian.dangjian.ui.bean.WentiQiang;
 import com.lingdian.dangjian.ui.bean.Xinde;
+import com.lingdian.dangjian.ui.bean.Zuzhichaxun;
 
 import retrofit2.http.POST;
 import retrofit2.http.Query;
@@ -133,5 +134,17 @@ public interface ApiService {
      */
     @POST("/pmc/mobile/findThreelessonss")
     Observable<Sanhui> sanhui(@Query("SESSIONID") String SESSIONID, @Query("currentPage") String currentPage);
+
+
+    /**
+     * 组织查询
+     * @param id
+     * @param type
+     * @param SESSIONID
+     * @return
+     */
+    @POST("/pmc/mobile/getPartyBranchNodesByPid")
+    Observable<Zuzhichaxun> zuzhichaxun(@Query("id") String id, @Query("type") String type,
+                                        @Query("SESSIONID") String SESSIONID);
 
 }

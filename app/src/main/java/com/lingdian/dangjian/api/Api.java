@@ -12,12 +12,14 @@ import com.lingdian.dangjian.ui.bean.Sanhui;
 import com.lingdian.dangjian.ui.bean.User;
 import com.lingdian.dangjian.ui.bean.WentiQiang;
 import com.lingdian.dangjian.ui.bean.Xinde;
+import com.lingdian.dangjian.ui.bean.Zuzhichaxun;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
+import retrofit2.http.Query;
 import rx.Observable;
 
 /**
@@ -101,6 +103,12 @@ public class Api {
 
     public Observable<Sanhui> sanhui(String SESSIONID, String currentPage){
         return service.sanhui(SESSIONID,currentPage);
+    }
+
+
+    public Observable<Zuzhichaxun> zuzhichaxun(@Query("id") String id, @Query("type") String type,
+                                               @Query("SESSIONID") String SESSIONID){
+        return service.zuzhichaxun(id,type,SESSIONID);
     }
 
 

@@ -6,6 +6,7 @@ import com.lingdian.dangjian.ui.activity.LoginActivity;
 import com.lingdian.dangjian.ui.activity.SanhuiActivity;
 import com.lingdian.dangjian.ui.activity.WentiQiangDetailActivity;
 import com.lingdian.dangjian.ui.activity.XindeActivity;
+import com.lingdian.dangjian.ui.activity.ZuzhichaxunActivity;
 import com.lingdian.dangjian.ui.fragment.Gz1Fragment;
 import com.lingdian.dangjian.ui.fragment.Gz2Fragment;
 import com.lingdian.dangjian.ui.fragment.HuiyinbiFragment;
@@ -41,4 +42,5 @@ public interface MainComponent {
     WentiQiangDetailActivity inject(WentiQiangDetailActivity activity);
     HuiyinbiDetailActivity inject(HuiyinbiDetailActivity activity);
     SanhuiActivity inject(SanhuiActivity activity);
+    ZuzhichaxunActivity inject(ZuzhichaxunActivity activity);
 }

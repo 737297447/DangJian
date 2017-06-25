@@ -94,7 +94,7 @@ public class Main5Fragment extends BaseFragment {
             }
         });
 
-        webView.loadUrl("http://www.yadj.gov.cn/");
+        webView.loadUrl("http://www.dangjian.cn/");
 
     }
 
