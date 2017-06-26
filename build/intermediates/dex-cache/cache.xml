@@ -2,67 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="E:\AsProject\DangJian\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\79dcbf79c0c92b1285360a01bf39aa49ed35c8a5\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8340c102d6ce8649143d9895e5c24be71181f08e\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_d77e5837a9441b40da0daa7e971c7645ea327b91.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\AsProject\DangJian\app\libs\pinyin4j-2.5.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\0f3c8ef469568f953b1108df8ef25ea8a1fbb388\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="ae353005f973da1cd8545b54354504c2503f6865">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\2\pinyin4j-2.5.0_57d650fe6066d9cb600da1c0184b17f34429d996\classes.dex" />
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_edf3b6f23625b8682cb873e698cbafdb0af382bb.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\4a7b292034a1785ef4c24158c6a29d87ab610422\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\dc94218e317026810c6f0933f2ca3058bbd37e6c\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="c543ac00b689343161fda6c18c594553fdc09fc7">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25814d2c0b103078d5752f14d79788903b749bb8\classes.dex" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_50db63d516aa10d45b12220737fdb79c6428bdcc.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\AsProject\DangJian\app\libs\commons-codec-1.9.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\6d872c6c529950ecaa43dd659c721241c6dc0469\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_51241eaba227b4ec225b1ab0855c43b93437ecd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\a5327f784b19e93f46e762910b2849e2f96a77ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_963e1cf74dc24e7fac23401342eacb8adc3eadd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\3652f8a4b680fb2dbcdd223b527d9b61c63b5db3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_deb21493b6e82edf71ecb6a2aaecde43e858aa45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\736095bd299604161feca87cfe6cf4285b9ccd02\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_bcbb6381fc01dd05e387a7ab69fc90ab281d23e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\669e2263ace33c350ed7a00bec1745610ca011e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_fc3f7295ebf9d6aef73cea036128cdc34a88fb18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_d9637bfabd7d4ace8d67e4ad088c46e9357e40a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\fc8740147d99e31a78bfcd0bc82c6e084a219363\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_4f784f4b406dcd5ace48478e88d58505c4b86d9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AsProgect\DangJian\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="9ce04e34240f674bc72680f8b843b1457383161a">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_6372fd4a20ec0b7ad25e29f24cb0c37e11028066\classes.dex" />
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\commons-codec-1.9_883a9ec2480ebeeef441b04c33b195bcd9c7c11c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\AsProject\DangJian\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\427403e0df7b34da5af6266c190edae8ddc979b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_a67a6de1bf8f396123dac31e33330c89973836e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\3854bafc6a646db8a25897ebdf248e129aff9335\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_deba19df14d9ff450995412df3d4d5346819bda9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AsProgect\DangJian\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_57f8029de5406a4ee5c95c8296e2396d850d6b48\classes.dex" />
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_804ea87155513b238bb88c64ba9221b88b4a824f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\28e953b05f87462ee79fdd972660ee5d2ed41698\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\AsProgect\DangJian\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="325208573c3f5b955d97e0e7f0e7b567657a75a3">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a13703485b537430a0629cd335f935b955df3ea2\classes.dex" />
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_833d60b608fa656a16a52f43a855d5678c5074b7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\AsProject\DangJian\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\330574b3c44f71fcdbfb4eb50b186d78ed280c16\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="f4349360947480e5db35fe0bf76a4074e2e6258a">
-        <dex dex="E:\AsProject\DangJian\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a12acaebbaea9c358edb3f58ffad36c2bb318b27\classes.dex" />
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_609f1bf17037bb73eb5fda2cab352006ad3bfceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C\.android\build-cache\fef579da49559a6979b49594536d83d9d5e8269c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="E:\AsProgect\DangJian\app\build\intermediates\pre-dexed\debug\classes_ddcb2347a49fd74ac9d433f4992577a33d7f515e.jar" />
     </item>
 
 </items>

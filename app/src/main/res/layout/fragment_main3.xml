@@ -430,7 +430,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="好声音"
+                        android:text="党员好声音"
                         android:textSize="12sp"
                         android:textColor="@color/c_333333"
                         android:layout_marginBottom="20dp"

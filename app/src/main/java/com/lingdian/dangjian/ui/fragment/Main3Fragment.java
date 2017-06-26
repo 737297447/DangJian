@@ -8,7 +8,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.lingdian.dangjian.R;
 import com.lingdian.dangjian.base.BaseRVFragment;
 import com.lingdian.dangjian.component.AppComponent;
@@ -46,7 +45,7 @@ public class Main3Fragment extends BaseRVFragment<Main1Presenter> implements Mai
 
 
     private CycleViewPager cycleViewPager;
-    private List<ImageView> views = new ArrayList<>();
+    private List<View> views = new ArrayList<>();
     private List<BannerData> infos = new ArrayList<>();
 
 
@@ -89,11 +88,14 @@ public class Main3Fragment extends BaseRVFragment<Main1Presenter> implements Mai
     public void initDatas() {
         List<BannerData> list = new ArrayList<>();
         BannerData data1 = new BannerData();
-        data1.setImgUrl("http://p4.so.qhimgs1.com/t01769129c2d71c24aa.jpg");
+        data1.setImgRes(R.mipmap.b1);
+        data1.setTitle("习近平主持召开深度贫困地区脱贫攻坚座谈会");
         BannerData data2 = new BannerData();
-        data2.setImgUrl("http://p0.so.qhmsg.com/sdr/1728_1080_/t01f9607473316946ef.jpg");
+        data2.setImgRes(R.mipmap.b2);
+        data2.setTitle("习近平视察驻晋部队某基地");
         BannerData data3 = new BannerData();
-        data3.setImgUrl("http://p0.so.qhimgs1.com/t01c558f3d2bee4917c.jpg");
+        data3.setImgRes(R.mipmap.b3);
+        data3.setTitle("刘奇葆出席中华文化走出去工作会议");
         list.add(data1);
         list.add(data2);
         list.add(data3);
@@ -141,11 +143,18 @@ public class Main3Fragment extends BaseRVFragment<Main1Presenter> implements Mai
 //        cycleViewPager.setIndicatorCenter();
     }
 
-    public ImageView getImageView(Context context, final BannerData data) {
-        ImageView imageView = (ImageView) LayoutInflater.from(context).inflate(
+    public View getImageView(Context context, final BannerData data) {
+
+
+        View view = LayoutInflater.from(context).inflate(
                 R.layout.view_banner, null);
-        Glide.with(getActivity()).load(data.getImgUrl()).into(imageView);
-        return imageView;
+//        Glide.with(getActivity()).load(data.getImgUrl()).into(imageView);
+
+        ImageView imageView = (ImageView) view.findViewById(R.id.iv_image);
+        TextView textView = (TextView) view.findViewById(R.id.tv_title);
+        imageView.setImageResource(data.getImgRes());
+        textView.setText(data.getTitle());
+        return view;
     }
 
     private CycleViewPager.ImageCycleViewListener mAdCycleViewListener = new CycleViewPager.ImageCycleViewListener() {

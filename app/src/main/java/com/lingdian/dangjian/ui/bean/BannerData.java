@@ -10,6 +10,7 @@ public class BannerData implements Serializable {
     private String imgUrl;
     private String httpUrl;
     private String title;
+    private int imgRes;
 
 
     public String getImgUrl() {
@@ -34,5 +35,13 @@ public class BannerData implements Serializable {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public int getImgRes() {
+        return imgRes;
+    }
+
+    public void setImgRes(int imgRes) {
+        this.imgRes = imgRes;
     }
 }

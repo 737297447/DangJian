@@ -25,7 +25,7 @@ import java.util.List;
  */
 public class CycleViewPager extends Fragment implements OnPageChangeListener {
 
-	private List<ImageView> imageViews = new ArrayList<ImageView>();
+	private List<View> imageViews = new ArrayList<>();
 	private ImageView[] indicators;
 	private FrameLayout viewPagerFragmentLayout;
 	private LinearLayout indicatorLayout; // 指示器
@@ -87,7 +87,7 @@ public class CycleViewPager extends Fragment implements OnPageChangeListener {
 		return view;
 	}
 
-	public void setData(List<ImageView> views, List<BannerData> list, ImageCycleViewListener listener) {
+	public void setData(List<View> views, List<BannerData> list, ImageCycleViewListener listener) {
 		setData(views, list, listener, 0);
 	}
 
@@ -99,7 +99,7 @@ public class CycleViewPager extends Fragment implements OnPageChangeListener {
 	 * @param showPosition
 	 *            默认显示位置
 	 */
-	public void setData(List<ImageView> views, List<BannerData> list, ImageCycleViewListener listener, int showPosition) {
+	public void setData(List<View> views, List<BannerData> list, ImageCycleViewListener listener, int showPosition) {
 		mImageCycleViewListener = listener;
 		infos = list;
 		this.imageViews.clear();
@@ -109,7 +109,7 @@ public class CycleViewPager extends Fragment implements OnPageChangeListener {
 			return;
 		}
 
-		for (ImageView item : views) {
+		for (View item : views) {
 			this.imageViews.add(item);
 		}
 
@@ -281,7 +281,7 @@ public class CycleViewPager extends Fragment implements OnPageChangeListener {
 
 		@Override
 		public View instantiateItem(ViewGroup container, final int position) {
-			ImageView v = imageViews.get(position);
+			View v = imageViews.get(position);
 			if (mImageCycleViewListener != null) {
 				v.setOnClickListener(new OnClickListener() {
 
