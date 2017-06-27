@@ -426,7 +426,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_marginTop="20dp"
-                        android:src="@mipmap/haoshengyin"/>
+                        android:src="@mipmap/zhibuhuodong1"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -457,7 +457,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@mipmap/zhibuhuodong1"/>
+                        android:src="@mipmap/haoshengyin"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

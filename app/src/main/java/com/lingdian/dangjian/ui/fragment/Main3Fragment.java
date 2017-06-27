@@ -71,7 +71,7 @@ public class Main3Fragment extends BaseRVFragment<Main1Presenter> implements Mai
     public void configViews() {
 
         leftImage.setVisibility(View.INVISIBLE);
-        centerText.setText("党内互动");
+        centerText.setText("党内活动");
         cycleViewPager = (CycleViewPager) getActivity().getFragmentManager()
                 .findFragmentById(R.id.fm_banner);
 
